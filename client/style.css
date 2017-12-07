@@ -99,9 +99,7 @@ add this to get them to appear near the top of the page so your site doens't loo
   background: rgba(255, 200, 255, .55);
   
   border: 2px solid black;
-  
   cursor: pointer;
-  
   box-shadow: -2px 2px 5px rgba(0, 0, 0, .8);
 }
 
