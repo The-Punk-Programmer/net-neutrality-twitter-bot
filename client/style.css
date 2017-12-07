@@ -1,3 +1,8 @@
+/* Start by making your CSS behave relatively well across browsers
+Set the font-size on html to make the font update dynamically to the screen-size
+Since Bootstrap is being used, I won't normalize it. But feel free to customize to your heart's content
+*/
+
 html {
   font-size: 62.5%;
 }
@@ -14,6 +19,10 @@ button {
   box-shadow: -2px 2px black; 
 }
 
+/* The #info element is very important so users know what your app is doing after all
+Therefore, I have made a simple animation for when the page loads to make the element move
+with the goal of getting people to click it and find out more
+*/
 @keyframes getAttention {
     0% {
         opacity: 0;
@@ -59,6 +68,12 @@ button {
   font-size: 2rem;
 }
 
+/* The .vex class is automatically applied by the vex library
+This controls the modals that pop up when users click on certain buttons
+See the client/app.js file for where vex is applied
+But since the default modals appeared at the bottom of the screen,
+add this to get them to appear near the top of the page so your site doens't look broken
+*/
 .vex {
   position: absolute;
   top: 5%;
@@ -67,6 +82,7 @@ button {
   font-size: 1.75rem;
 }
 
+/* Here is the element that receives the animation above */ 
 #info {
   animation: getAttention 1s ease-out;
   animation-direction: backwards;
