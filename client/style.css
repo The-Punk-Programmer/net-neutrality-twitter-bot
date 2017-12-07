@@ -1,10 +1,19 @@
 /* Start by making your CSS behave relatively well across browsers
 Set the font-size on html to make the font update dynamically to the screen-size
-Since Bootstrap is being used, I won't normalize it. But feel free to customize to your heart's content
+The media query makes it so small screens don't look like shit
+Since Bootstrap is being used, I won't normalize it the css. But feel free to customize to your heart's content
 */
-
 html {
   font-size: 62.5%;
+}
+
+/* This only applies for screens smaller than 350px. 
+It acts to set a smaller reference for your measurments */
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 35%;
+  }
+  
 }
 
 body {
@@ -73,12 +82,14 @@ This controls the modals that pop up when users click on certain buttons
 See the client/app.js file for where vex is applied
 But since the default modals appeared at the bottom of the screen,
 add this to get them to appear near the top of the page so your site doens't look broken
+But make sure that max-width property is set otherwise the text will get cut off on small screens
 */
 .vex {
   position: absolute;
   top: 5%;
   left: 50%;
   transform: translateX(-50%);
+  max-width: 90%;
   font-size: 1.75rem;
 }
 
@@ -107,4 +118,3 @@ add this to get them to appear near the top of the page so your site doens't loo
   cursor: pointer;
   text-decoration: underline;
 }
-
