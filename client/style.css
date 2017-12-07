@@ -1,0 +1,96 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: red;
+}
+
+a, a:hover, a:active, a:visited {
+  color: black;
+}
+
+button {
+  box-shadow: -2px 2px black; 
+}
+
+@keyframes getAttention {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.title-box, .count-box {
+  color: white;
+}
+
+.title-box {
+  margin-top: 15%;
+  margin-bottom: 2.5%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 8rem;
+  border-bottom: 2.5px solid white;
+}
+
+.count-box {
+  font-size: 3rem;
+}
+
+.buttons {
+  margin-bottom: 25%;
+}
+
+.buttons button {
+  margin-bottom: 1%;
+  font-size: 2rem;
+}
+
+.vex {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.75rem;
+}
+
+#info {
+  animation: getAttention 1s ease-out;
+  animation-direction: backwards;
+  animation-iteration-count: 3;
+  color: black;
+  font-size: 1.5rem;
+  
+  position: absolute;
+  top: 2.5%;
+  left: 85%;
+  transform: translate(-50%);
+  
+  padding: 1rem;
+  background: rgba(255, 200, 255, .55);
+  
+  border: 2px solid black;
+  
+  cursor: pointer;
+  
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, .8);
+}
+
+#fight:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
