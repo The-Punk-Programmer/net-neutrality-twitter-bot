@@ -1,7 +1,7 @@
 # net-neutrality-twitter-bot
 Instructions on How To Build a Twitter Bot to Protest The End of Net Neutrality
 
-## CodePen to My App here: https://codepen.io/thepunkprogrammer/full/YEbxwJ/
+## CodePen link here: https://codepen.io/thepunkprogrammer/full/YEbxwJ/
 
 As you probably heard, the FCC is planning on ending Net Neutrality as we know it. 
 
