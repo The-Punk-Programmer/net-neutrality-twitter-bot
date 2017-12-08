@@ -1,0 +1,29 @@
+{
+  "name": "Protest For Net Neutrality Twitter App",
+  "version": "1.0.0",
+  "description": "A Twitter Bot that sends out a tweet protesting the end of net neutrality every time it recieves a message over websockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-ws": "^3.0.0",
+    "twit": "^2.2.9",
+    "mongoose": "^4.13.6"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
+  "repository": {
+    "url": "https://github.com/thepunkprofessor/net-neutrality-twitter-bot/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "twitter-bot",
+    "net-neutrality"
+  ]
+}
