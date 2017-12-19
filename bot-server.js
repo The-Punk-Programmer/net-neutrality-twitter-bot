@@ -98,7 +98,7 @@ app.ws('/', (ws, req) => {
     // thus this is an accurate account of how many times your users have expressed their desire to contribute
     // Note, this doesn't update your actual total, that comes a little later
     const tweet = {
-      status: `${tot.total + 1} people and I say "Fuck Ajit Pai". Retweet if you do too #netneutrality #FightForFreeInternet https://t.co/KE2wRbq2LC`
+      status: `${tot.total + 1} people and I say "Fuck Ajit Pai". We stand for #netneutrality Retweet if you do too! goo.gl/QvSoiY`
     }
     
     // This sends a post request to Twitter which sends out a tweet with whatever message you supplied in your "tweet" parameter
