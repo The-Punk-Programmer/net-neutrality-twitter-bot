@@ -10,7 +10,7 @@ Though there is probably little that can be done to change that, it doens't mean
 So this repo contains code for making a Twitter Bot that will show our resistance.
 
 On the server is a websockets connection that sends out a tweet that says: 
-"X people and I say 'Fuck Ajit Pai'. Retweet if you do too #netneutrality #FightForFreeInternet https://t.co/KE2wRbq2LC"
+"X people and I say "Fuck Ajit Pai". We stand for #netneutrality Retweet if you do too! goo.gl/QvSoiY`"
 every time that a message is sent from the client.
 
 On the client is a simple HTML page that allows people to show their support and force the server to tweet.
